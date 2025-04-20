@@ -5,7 +5,7 @@ import 'package:get/get.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:intl/intl.dart';
 import 'package:loveioit/src/screens/profile_screen.dart';
-import '../constants/user_deatils.dart';
+import '../constants/user_details.dart';
 import '../screens/onBording/onbording_screens.dart';
 import 'exceptions/login_email_password_failure.dart';
 import 'exceptions/signup_email_password_failure.dart';

@@ -1,7 +1,6 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:loveioit/src/data/datafrom_pdf.dart';
 import 'package:loveioit/src/repository/authentication_repository.dart';
 import 'firebase_options.dart';
 
@@ -19,7 +18,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      home: PdfExtractorPage(),//Center(child: CircularProgressIndicator()),
+      home: Center(child: CircularProgressIndicator()),
     );
   }
 }
